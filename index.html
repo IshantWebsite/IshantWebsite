@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href = "index/html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">I AM</a></li>
+                    <li><a href="">BAS BHAI</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+<div class="text-box">
+    <h1>Foolish Person (Ishant)</h1>
+    <p>I love to try new things thats it. My profile motto is "behave like a fool, think like a brllient. 
+        Don't judge my spelling<br> please and grammer too!</p>
+    <a href="" class="hero-btn">You can visit my home to know more about me!</a>
+</div>
+
+    </section>
+
+
+<!--------More about me-->
+
+<section class="mainMore">
+    <h1>More about me</h1>
+    <p>I like to study history, what happens in the past motivates me <br> to not do the mistakes done in the past by some emperor or kings. Please don't suggest me to become archologist <br> I am already tired of listining this.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Videos to learn coding by yourself!</h3>
+            <p>Here I will upload 1 video per week to teach those guys who want to learn coding for free!, it can be a video by me or any other youtuber!<br>
+            If you want to learn coding this website is for you only!</p>
+        </div>
+            <div class="course-col">
+                <h3>Why this website?</h3>
+                <p>Nothing is free in this 21st centuary but here all the content are free to use, without copyright.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Note for my school friends</h3>
+                    <p>kabhi kabhi phone bhi kar liya karo bhai, hal chal lene ke liye.</p>
+                </div>
+            
+        
+    </div>
+</section>
+
+<!----over all me-->
+<section class="Overall">
+    <h1>My overall point of view</h1>
+    <p>My overall point of view and motive is to have fun basically as I said I like to try new things <br> this my new project "website designing" this is just for fun.</p>
+        
+<div class="row">
+    <div class="over-col">
+<img src="images/code.jpg">
+<div class="layer">
+    <h3>JAVA</h3>
+</div>
+    </div>
+    <div class="over-col">
+        <img src="images/code.jpg">
+        <div class="layer">
+            <h3>PYTHON</h3>
+        </div>
+            </div>
+            <div class="over-col">
+                <img src="images/code.jpg">
+                <div class="layer">
+                    <h3>HTML</h3>
+                </div>
+                    </div>
+</div>
+
+</section>
+
+
+<!----other-->
+
+<section class="otherThings">
+    <h1>Some other things</h1>
+    <p> Some other things goes here when I will upload the coding video!</p>
+
+    <div class="row">
+        <div class="Other-col">
+            <img src="Images/library.png">
+            <h3>Idiot making website</h3>
+            <p>I like to code so I am making is website this website is right now not proper I will improve this with time.</p>
+        </div>
+        <div class="Other-col">
+            <img src="images/other1.png">
+            <h3>IT Sector</h3>
+            <p>In this busy offline world everyone's work is going online so that's why learning coding is importnt.</p>
+        </div>
+    </div>
+</section>
+
+<!----footer-->
+
+
+<section class="footer">
+    <h4>About me</h4>
+    <p> This is it, the website is under construction you can come next week and you will notice some changes for sure, <br> note to my friend bhai, bhean abb to phone kar lena.</p>
+</section>
+
+<!-------- JavaScript for toggle menu ---------->
+    <script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+
+}
+
+function hideMenu(){
+    navLinks.style.right = "-200px";
+    
+}
+
+    </script>
+    
+</body>
+</html>
